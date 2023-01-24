@@ -34,11 +34,6 @@ header .logo
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-header img
-{
-    width: 150px;
-    height: 180px;
-}
 header ul
 {
     display: flex;
