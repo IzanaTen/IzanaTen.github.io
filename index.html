@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html>
+
+    <head>
+
+        <title>Website Oskar Cz.</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <meta name="author" content="Sano aka Oskar">
+
+        <meta name="description" content="Grafiki - https://www.freepik.com/free-vector/nature-landscape-with-forest-mountains-sun_21613689.htm#from_view=detail_collection | https://www.freepik.com/free-vector/magic-deer-night-forest-mystical-stag-with-glowing-eyes-body-soul-nature-wood-protector-totemic-animal-trees-mountain-landscape-majestic-reindeer-cartoon-illustration_10798335.htm?query=Scene&sign-up=google">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <a href="#" class="logo">Sano</a>
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="2.html">About</a></li>
+
+                <li><a href="3.html">Work</a></li>
+
+                <li><a href="4.html">Contact</a></li>
+
+            </ul>
+
+        </header>
+
+        <section>
+
+            <img src="forest_forward.png" id="forward">
+
+            <img src="stars_white.png" id="stars">
+
+            <h2 id="text">Standalone</h2>
+
+            <a href="#sec" id="btn">Explore</a>
+
+        </section>
+
+        <div class="sec" id="sec">
+
+            <h2>O miłości innej niż zwykle.</h2>
+
+            <p>
+
+                Krótko i szczęśliwie. Historie późnych miłości. O pierwszych miłościach powiedziano prawie wszystko – powstało już wiele filmów, piosenek i wierszy. O miłościach ostatnich nie mówi się dużo, a jeśli już, to ze wstydem, półszeptem, jakby ich miejsce było w cieniu. A przecież to właśnie uczucia, które zdarzają się późno, kiedy już się ich wcale nie spodziewamy, zostają z nami na zawsze. Oto zbiór prawdziwych historii dojrzałych miłości, które nie miały prawa się zdarzyć, a jednak się wydarzyły na ostatniej prostej życia. Te nieoczywiste, słodko-gorzkie opowieści, dają nadzieję, że nigdy nie jest za późno na przeżycie czegoś ważnego. Powiedzieć komuś „Nie jesteś moją pierwszą miłością, ale wiem, że będziesz ostatnią” to jedna z najpiękniejszych obietnic, jakie możemy złożyć.<br><br>Zaryzykuję stwierdzeniem, że osoby po pewnym roku życia są wykreślane lub ich rola zostaje na tyle zminimalizowana w życiu społecznym, że widać to nawet w literaturze. Kobiety i mężczyźni w pewnym wieku zostają odpowiednio dopasowani do ról babć i dziadków, a o ich życiu opowiada jedynie seria comiesięcznych artykułów o wysokościach emerytur. A przecież ich życie to o wiele więcej. I właśnie tutaj cała na biało wchodzi Agata Romaniuk, która do tematu drugiej młodości podeszła z zupełnie innej, a wręcz zaskakującej strony.
+
+
+
+                Temat miłości nie jest obcy tej autorce. Jej wcześniejszy reporterski debiut też podejmował ten temat w inny sposób. „Z miłości? To współczuję” był jednym z pierwszych reportaży, jakie przeczytałam. Podchodził do tematu w lekki i przyjemny sposób, dlatego spodziewałam się, że jej najnowsza książka będzie bardzo podobna. I miałam rację – „Krótko i szczęśliwie” to zbiór tekstów o miłości, która dosięga kogoś innego niż młodocianych podlotków. Wręcz przeciwnie. Główni bohaterowie tych reportaży przeżyli już niejedno, a czasy motyli w brzuchu teoretycznie mają już dawno za sobą. Przynajmniej tak mogłoby się wydawać.
+
+                
+
+                Nie będę ukrywać, przy „Krótko i szczęśliwie” naprawdę da się wzruszyć. A mówię to ja, która prawie nigdy nie płacze przy książkach („O psie, który jeździł koleją” się nie liczy), a nawet ciężko sprawić, by ścisnęło mnie w dołku. A Agata Romaniuk naprawdę złapała mnie mocno za serce i trzymała aż do ostatniego tekstu. Jestem pewna, że żaden, nawet najmocniejszy czytelnik, nie przejdzie suchą stopą, a raczej suchym okiem przez wszystkie 12 krótkich reportaży.<br><br> Bo Romaniuk sięga po miłość w różnych postaciach i nie epatuje usilnym pragnieniem wywołania u czytelnika potoku łez. Wręcz przeciwnie. Przy lekturze tej pozycji można poczuć jedynie ciepło i pewne bezpieczeństwo, że miłość występuje nawet po przekroczeniu pewnej linii wieku.
+
+                
+
+                Jeśli szukacie reportażu, od którego chcecie zacząć swoją przygodę z tym gatunkiem, to Agata Romaniuk będzie idealnym wyborem. Jeśli przechodzicie właśnie paskudne rozstanie i przestaliście wierzyć w miłość, to także powinniście sięgnąć po tę książkę. Czy jesteście w szczęśliwym związku, czy smutnym, czy na ckliwe romanse reagujecie wywracaniem oczami, to i tak powinniście przeczytać „Krótko i szczęśliwie”, bo to po prostu dobra pozycja.
+
+            </p>
+
+        </div>
+
+        <script>
+
+            let stars = document.getElementById('stars')
+
+            let forward = document.getElementById('forward')
+
+            let btn = document.getElementById('btn')
+
+            let text = document.getElementById('text')
+
+            let header = document.querySelector('header')
+
+
+
+            window.addEventListener('scroll', function(){
+
+                let value = window.scrollY;
+
+                stars.style.left = value * 0.25 + 'px';
+
+                text.style.marginTop = value * 1.30 + 'px';
+
+                header.style.top = value * 0.5 + 'px';
+
+                btn.style.marginBottom = value * 0.5 + 'px';
+
+            })
+
+        </script>
+
+    </body>
+
+</html>
