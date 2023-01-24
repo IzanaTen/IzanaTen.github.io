@@ -35,11 +35,11 @@ header .logo
     letter-spacing: 2px;
 }
 header .logo::first-letter {
-    color: #ccc;
+    color: #000000;
 }
 
 header .logo::first-letter + span {
-    color: #fff;
+    color: #000000;
 }
 header ul
 {
