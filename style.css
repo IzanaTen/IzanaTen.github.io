@@ -33,6 +33,7 @@ header .logo
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
+    line-height: 50px;
 }
 header img
 {
