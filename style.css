@@ -33,12 +33,13 @@ header .logo
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    line-height: 50px;
+    display: inline-block;
 }
 header img
 {
     width: 100px;
     height: 100px;
+    vertical-align: middle;
 }
 header ul
 {
