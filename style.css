@@ -34,13 +34,6 @@ header .logo
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-header .logo::first-letter {
-    color: #000000;
-}
-
-header .logo::first-letter + span {
-    color: #000000;
-}
 header ul
 {
     display: flex;
