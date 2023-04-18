@@ -77,25 +77,3 @@ header ul li a.active
     background: #fff;
     color: #2b1055;
 }
-.sec
-{
-    position: relative;
-    padding: 200px;
-    color: white;
-}
-.sec h2
-{
-    font-size: 3.5em;
-    margin-bottom: 10px;
-    color: #fff;
-}
-.left
-{
-    float: left;
-    width: 50%;
-}
-.right
-{
-    float: right;
-    width: 50%;
-}
