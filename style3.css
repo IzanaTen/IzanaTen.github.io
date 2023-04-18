@@ -42,16 +42,14 @@ header .logo
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
-    letter-spacing: 20px;
+    letter-spacing: 2px;
     display: inline-block;
 }
 header img
 {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     vertical-align: middle;
-    margin-left: 50px;
-    margin-top: 20px;
 }
 header ul
 {
@@ -76,4 +74,38 @@ header ul li a.active
 {
     background: #fff;
     color: #2b1055;
+}
+section
+{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    background: url(background\ contact.jpg);
+    justify-content: center;
+    align-items: center;
+}
+section img
+{
+    width: 120px;
+    height: 120px;
+    vertical-align: middle;
+}
+.box
+{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2
+{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
 }
