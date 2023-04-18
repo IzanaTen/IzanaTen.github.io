@@ -11,7 +11,8 @@ body
 {
     min-height: 100vh;
     overflow-x: hidden;
-    background: linear-gradient(rgb(39, 39, 39), rgb(65, 65, 65));
+    background: rgb(47,97,168);
+    background: linear-gradient(90deg, rgba(47,97,168,1) 0%, rgba(9,116,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 .black-bar {
     background-color: black;
