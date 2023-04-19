@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins: 300, 400, 500, 600, 700, 800, 900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body
+{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(90deg, rgba(47,97,168,1) 0%, rgba(9,116,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.black-bar {
+    background-color: black;
+    height: 175px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+header img
+{
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+    background: #fff;
+    color: #2b1055;
+}
+section
+{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    background: url(background\ contact.jpg)
+    justify-content: center;
+    align-items: center;
+}
+section img
+{
+    width: 120px;
+    height: 120px;
+    vertical-align: middle;
+}
+.box
+{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2
+{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
