@@ -80,7 +80,7 @@ section
     display: flex;
     min-height: 100vh;
     width: 100%;
-    background: url(background\ contact.jpg);
+    background: url(background\ contact.jpg)
     justify-content: center;
     align-items: center;
 }
