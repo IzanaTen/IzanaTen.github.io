@@ -90,24 +90,50 @@ section img
     height: 120px;
     vertical-align: middle;
 }
-.box
-{
-    position: relative;
-    width: 400px;
-    height: 450px;
-    background: transparent;
-    border: 2px solid rgba(255,255,255,0.5);
-    border-radius: 20px;
-    backdrop-filter: blur(12px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -500px;
 }
+.center-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .right-box {
+    position: absolute;
+    top: 50%;
+    left: 76.5%;
+    transform: translate(-50%, -50%);
+  }
+  
 h2
 {
     font-size: 2em;
     color: #fff;
     text-align: center;
+}
+li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+li a:hover,
+li a.active
+{
+    background: #fff;
+    color: #2b1055;
 }
 section::before
 {
